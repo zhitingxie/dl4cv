@@ -20,7 +20,8 @@ args = vars(ap.parse_args())
 # script, the download may take a minute -- the 55MB MNIST dataset
 # will be downloaded)
 print("[INFO] loading MNIST (full) dataset...")
-dataset = datasets.fetch_mldata("MNIST Original")
+#dataset = datasets.fetch_mldata("MNIST Original")
+dataset = datasets.fetch_openml("mnist_784")
 
 # scale the raw pixel intensities to the range [0, 1.0], then
 # construct the training and testing splits

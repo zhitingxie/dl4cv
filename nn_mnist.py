@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report
 from sklearn import datasets
 
-#load the MNIST dataset and apply min/max scaling to scale the
+# load the MNIST dataset and apply min/max scaling to scale the
 # pixel intensity values to the range [0, 1] (each image is
 # represented by an 8 x 8 = 64-dim feature vector)
 print("[INFO] loading MNIST (sample) dataset...")
